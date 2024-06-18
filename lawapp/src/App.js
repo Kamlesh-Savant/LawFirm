@@ -1,8 +1,9 @@
+import Navbar from "./Component/Navbar/Navbar";
 
 function App() {
   return (
 <div>
-  In proccess...
+  <Navbar />
 </div>
   );
 }
