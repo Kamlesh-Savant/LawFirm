@@ -1,6 +1,10 @@
 :root {
   /* Global variables to be defined here */
-  /* --color-white: #ffffff; */
+  --color-white: #ffffff;
+  --color-black: #111111;
+  --color-yellow: #E3B748;
+  --color-primary : #1D1D1D;
+  --color-secondary: #2E2E2E;
 }
 
 *,
@@ -14,6 +18,9 @@
 html,
 body {
   height: 100%;
+  background-color: var(--color-primary);
+  font-family: "Poppins",sans-serif;
+  color: var(--color-white);
 }
 body {
   line-height: 1.5;

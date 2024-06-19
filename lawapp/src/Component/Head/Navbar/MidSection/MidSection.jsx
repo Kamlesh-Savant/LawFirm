@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import styles from './MidSection.module.css'
 
 function MidSection() {
   return (
-    <div>
+    <div className={styles.wrapper}>
         <a href="#">Home</a>
         <a href="#">Attorneys</a>
         <a href="#">Practice Areas</a>

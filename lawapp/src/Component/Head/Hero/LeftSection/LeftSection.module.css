@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 544px;
+}
+
+.firstText{
+    font-size: 66px;
+}
+
+.secondText{
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.para{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-secondary);
+}
