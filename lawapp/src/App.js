@@ -1,3 +1,4 @@
+import ChooseSection from "./Component/ChooseSection/ChooseSection";
 import Head from "./Component/Head/Head";
 import Introduction from "./Component/Introduction/Introduction";
 
@@ -6,6 +7,7 @@ function App() {
 <div>
   <Head />
   <Introduction />
+  <ChooseSection />
 </div>
   );
 }
