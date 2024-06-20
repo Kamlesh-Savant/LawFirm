@@ -1,0 +1,29 @@
+.wrapper{
+    padding: 0 155px;
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 367px;
+}
+.mainWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondSection{
+    /* width: 40%; */
+    display: flex;
+    /* justify-content: space-evenly;
+    align-items: center; */
+    margin-right: 50px;
+    
+}
+
+.secTextContent{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 10px;
+}
