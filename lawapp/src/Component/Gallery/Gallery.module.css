@@ -1,0 +1,6 @@
+.wrapper{
+    padding: 30px 153px 100px 153px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
