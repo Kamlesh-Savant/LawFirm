@@ -1,0 +1,16 @@
+.wrapper{
+    padding: 0px 153px 100px 153px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardContainer{
+    margin-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}

@@ -1,0 +1,36 @@
+.wrapper{
+    
+    display: flex;
+    width: 280px;
+    height: 100px;
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+    /* border: 1px solid red; */
+    border-radius: 14px;
+
+}
+.selected{
+    background-color: var(--color-yellow);
+    color: var(--color-primary);
+}
+.img{
+    margin-right: 25px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cases{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-secondary);
+}
